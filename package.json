@@ -6,12 +6,10 @@
     "engines": { "node": "8.1.2" },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exite 1",
-        "start": "node index.js"
     },
-    "keywords": [],
     "author": "Nathan",
     "license": "ISC",
     "dependencies": {
-        "discord.js": "^11.4.2" 
+        "discord.js": "^11.5.0" 
     }
 }
