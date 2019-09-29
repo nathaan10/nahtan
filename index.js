@@ -4,7 +4,7 @@ var prefix = "é"
 
 var dispatcher;
 
-client.login("NjE2MjI4Mjc2ODY3OTU2NzU3.XWZhVg.d7CiNkNm45viZS0itNtvs2XkQGc");
+client.login(process.env.TOKEN);
 
 client.on('ready', () => {
     console.log(`Bot: Hosting ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
