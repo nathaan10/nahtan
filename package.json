@@ -1,15 +1,12 @@
 {
-    "name": "Nahtan",
-    "version": "1.2",
+    "name": "nahtan",
+    "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "engines": { "node": "8.1.2" },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exite 1",
-        "start": "node index.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
     },
-    "keywords": [],
-    "author": "",
+    "author": "Nathan",
     "license": "ISC",
     "dependencies": {
         "discord.js": "^11.4.2" 
